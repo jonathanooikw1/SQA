@@ -22,8 +22,8 @@ public class PlatformGenerator : MonoBehaviour
     {
         if (transform.position.x < generationPoint.position.x)
 		{
-			//randomizes the distance between platforms
-			distanceBetween = Random.Range(distanceBetweenMin, distanceBetweenMax);
+            //randomizes the distance between platforms
+            distanceBetween = 5;//Random.Range(distanceBetweenMin, distanceBetweenMax);
 			transform.position = new Vector3(transform.position.x + platformWidth + distanceBetween, transform.position.y, transform.position.z);
 			//creates copy of existing object
 			Instantiate(platform, transform.position, transform.rotation);
