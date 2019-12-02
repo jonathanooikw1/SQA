@@ -53,8 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlatformDestroyer.cs" />
      <Compile Include="Assets\Scripts\PlatformGenerator.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Tiling.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/User/Desktop/unity/New folder/adsf/Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
